@@ -12,7 +12,7 @@ const Authrouter = require("./routes/user");
 // dbcoonection
 mongoose
   .connect(
-    "mongodb+srv://mahi:<mahimahi>@cluster0.tqx4r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "mongodb+srv://mahi:H4O1EYaZmYLZcOgI@cluster0.tqx4r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
 
     {
       useNewUrlParser: true,
