@@ -121,7 +121,7 @@ router.post("/signup", (req, res, next) => {
           }
         );
 
-        const url = `https://attendance-pro.herokuapp.com/api/confirmation/${emailToken}`;
+        const url = `api/confirmation/${emailToken}`;
 
         transpoter.sendMail(
           {
