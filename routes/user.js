@@ -121,7 +121,7 @@ router.post("/signup", (req, res, next) => {
           }
         );
 
-        const url = `https://attendance-atoz-a34b5.web.app/api/confirmation/${emailToken}`;
+        const url = `https://attendance-atoz-a34b5.web.app/login`;
 
         transpoter.sendMail(
           {
